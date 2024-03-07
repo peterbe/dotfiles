@@ -3,7 +3,7 @@
 # If we are in a codespace:
 if ("$CODESPACES" == "true") then
    # Copy the vscode settings into the codespace:
-   # cp vscode/settings.json ~/.vscode-remote/data/Machine/settings.json
+   cp vscode/settings.json ~/.vscode-remote/data/Machine/settings.json
 
    # Copy files into the codespace:
    cp -R .scripts ~/.scripts            # .scripts directory contains the branchlister scripts
